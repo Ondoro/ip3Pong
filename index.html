@@ -10,17 +10,58 @@
     <title>PingPong</title>
   </head>
   <body>
+                                                <!-- header -->
+    <div class="container-fluid c1">
+      <h1><span class="heading">P I N G  -   P O N G</span></h1>
+      <span class="desc">Some number to word game.</span>
+    </div>
+                                                <!-- main div -->
     <div class="container-fluid c2main">
   <div class="row">
-    <div class="col-md-3 c2">
-    <!-- <div class="header"> -->
-      <h1> PING - PONG</h1>
-    </div>
+      <div class="col-md-3 c2">
+                                                    <!--SIDEBAR DIV--->
+
+        <h2><span class = "about">About this game</span></h2>
+        <ul>
+          <li> Type in a number, if divisble by three,it will be returned as "ping!".</li>
+          <li>If divisble by five, its returned as "pong!".</li>
+          <li>If divisible by 15, its returned as "PingPong!".</li>
+        </ul>
+        Made by:
+        <p>Samuel Ondoro</p>
+        <h3>written using:</h3>
+        <ul>
+          <li>Javascript.</li>
+          <li>HTML.</li>
+          <li>CSS.</li>
+        </ul>
+
+      </div>
+
+                             <!-- GAMEDIV -->
+
+
+    <div class="col-md-9 c3">
+      <h2>Game time!</h2>
+      <h3>Outcome:</h3>
+      <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+      <ol>
+        <li>Numbers divisible by 3 become 'ping'</li>
+        <li>Numbers divisible by 5 become 'pong'</li>
+        <li>Numbers divisible by 3 and 5 become 'pingpong'</li>
+      </ol>
+
+
     <form id="pingPong">
       <div class="form-group">
         <label for="number">
           <input id="number" type="tex">
 
+
+     </div>
+
+    </div>
+    </div>
     </form>
    <ul id="output">
 
