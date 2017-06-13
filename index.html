@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="JS/jquery-3.2.1.js"></script>
-    <script src="JS/script.js"></script>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="CSS/styles.css">
-    <meta charset="utf-8">
-    <meta charset="utf-8">
-    <title>PingPong</title>
-  </head>
-  <body>
-                                                <!-- header -->
-    <div class="container-fluid head">
-      <h1><span class="heading">P I N G  -   P O N G</span></h1>
-      <span class="desc"> number to word game.</span>
-    </div>
-                                                <!-- main div -->
-    <div class="container-fluid main">
-  <div class="row">
+
+<head>
+  <script src="JS/jquery-3.2.1.js"></script>
+  <script src="JS/script.js"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <meta charset="utf-8">
+  <meta charset="utf-8">
+  <title>PingPong</title>
+</head>
+
+<body>
+  <!-- header -->
+  <div class="container-fluid head">
+    <h1><span class="heading">P I N G  -   P O N G</span></h1>
+    <span class="desc"> number to word game.</span>
+  </div>
+  <!-- main div -->
+  <div class="container-fluid main">
+    <div class="row">
       <div class="col-md-3 side">
-                                                    <!--SIDEBAR DIV--->
+        <!--SIDEBAR DIV--->
 
         <h2><span class = "about">About this game</span></h2>
         <ul>
@@ -28,7 +30,7 @@
           <li>If divisible by 15, its returned as "PingPong!".</li>
         </ul>
         Made by:
-        <p>Samuel Ondoro</p>
+        <p><strong>Samuel Ondoro</strong></p>
         <h3>written using:</h3>
         <ul>
           <li>Javascript.</li>
@@ -40,37 +42,37 @@
 
 
 
-                             <!-- GAMEDIV -->
+      <!-- GAMEDIV -->
 
 
-    <div class="col-md-9 child">
-      <h2>Game time!</h2>
-      <h3>Outcome:</h3>
-      <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
-      <ol>
-        <li>Numbers divisible by 3 become 'ping'</li>
-        <li>Numbers divisible by 5 become 'pong'</li>
-        <li>Numbers divisible by 3 and 5 become 'pingpong'</li>
-      </ol>
+      <div class="col-md-9 child">
+        <h2>Game time!</h2>
+        <h3>Outcome:</h3>
+        <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+        <ol>
+          <li>Numbers divisible by 3 become 'ping'</li>
+          <li>Numbers divisible by 5 become 'pong'</li>
+          <li>Numbers divisible by 3 and 5 become 'pingpong'</li>
+        </ol>
 
 
-    <form id="pingPong">
-      <div class="form-group">
-        <label for="number">
-          <input id="number" type="text">
+        <form id="pingPong">
+          <div class="form-group">
+            <label for="number">
+           <input id="number" type="text">
 
 
-     </div>
-     <div>
+           </div>
+            <div>
 
-    <ul id="output">
+              <ul id="output">
 
-    </ul>
-  </div>
-   </form>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-  
+
   </body>
 </html>
